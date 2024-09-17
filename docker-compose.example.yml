@@ -1,0 +1,17 @@
+services:
+  db:
+    image: 
+    restart:
+    ports:
+      - 
+    shm_size: 
+    environment:
+      POSTGRES_PASSWORD: 
+      POSTGRES_USER: 
+      POSTGRES_DB: 
+
+  adminer:
+    image: 
+    restart:
+    ports:
+      - 
